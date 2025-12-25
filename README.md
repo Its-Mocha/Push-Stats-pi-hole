@@ -34,19 +34,16 @@ Synchronization: (In Progress) Automates the transfer of data to the Next.js fro
 🚀 PRIMARY_DIRECTIVES (Setup)
 To initialize this script within your own Proxmox environment:
 
-Bash
-
-# Access the scripts directory
+1. Access the scripts directory
 cd ~/scripts/PUSH_STATS
 
-# Install required Python libraries
+2. Install required Python libraries
 pip install requests
 
-# Run the telemetry sync
+3. Run the telemetry sync
 python3 push_stats.py
 
 📡 TRANSMISSION_CHANNELS
-Integrated Dashboard: mochajoe.dev/stats
-
+Integrated Dashboard: https://mochajoe.dev/stats
 LinkedIn: Joseph Ducharme
 
